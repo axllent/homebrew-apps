@@ -3,7 +3,7 @@
 To add this tap to [brew](https://brew.sh/) run:
 
 ```shell
-brew tap axllent/homebrews https://github.com/axllent/homebrews
+brew tap axllent/apps
 ```
 
 ## Packages included:
