@@ -2,20 +2,20 @@ class Mailpit < Formula
   desc "An email and SMTP testing tool with API for developers"
   homepage "https://github.com/axllent/mailpit"
   license "MIT"
-  version "v1.25.0"
+  version "v1.25.1"
 
   on_macos do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/axllent/mailpit/releases/download/v1.25.0/mailpit-darwin-amd64.tar.gz"
-      sha256 "f0f22324e29d5a0512053f0acf0186c9d5bcc2ecb7232966c5d0b13432f97812"
+      url "https://github.com/axllent/mailpit/releases/download/v1.25.1/mailpit-darwin-amd64.tar.gz"
+      sha256 "c1d67f64e6aadcd33fa15bbb214c1495dd5bb1b8b3bea9187364f7c78cc1987c"
 
       def install
         bin.install "mailpit"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/axllent/mailpit/releases/download/v1.25.0/mailpit-darwin-arm64.tar.gz"
-      sha256 "5fe3012e9b3c47670e76b456a2b21f8d50b7fb71eaf35af54bd93fb95b9a6165"
+      url "https://github.com/axllent/mailpit/releases/download/v1.25.1/mailpit-darwin-arm64.tar.gz"
+      sha256 "2e59a79ccbbb2472c1d8eeeba3dcda962df29e82b1ce645d9c1734c7d09c9f8f"
 
       def install
         bin.install "mailpit"
@@ -25,32 +25,32 @@ class Mailpit < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_32_bit?
-      url "https://github.com/axllent/mailpit/releases/download/v1.25.0/mailpit-linux-386.tar.gz"
-      sha256 "eff51bbd50af1969c6c8104bd0fecff5c63f85f11d40726f084e5f9d0583859d"
+      url "https://github.com/axllent/mailpit/releases/download/v1.25.1/mailpit-linux-386.tar.gz"
+      sha256 "0c97cfb86c053ea6df2d7cb6c019f799b9de30c4191e97b5efcdfce210c44dbf"
 
       def install
         bin.install "mailpit"
       end
     end
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/axllent/mailpit/releases/download/v1.25.0/mailpit-linux-amd64.tar.gz"
-      sha256 "539deb2c87b56d3775ab5ab1e433b84f1fa07b35fe998bae353b144338cc9779"
+      url "https://github.com/axllent/mailpit/releases/download/v1.25.1/mailpit-linux-amd64.tar.gz"
+      sha256 "c9d1cafd7295b041503bf9c081be497825a995d80e78d4b5773e857d60d8b13c"
 
       def install
         bin.install "mailpit"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_32_bit?
-      url "https://github.com/axllent/mailpit/releases/download/v1.25.0/mailpit-linux-arm.tar.gz"
-      sha256 "53ccbe175fe8abb9c779831e6115522899f60cbee5a9fdb2858e86b0c4c7792d"
+      url "https://github.com/axllent/mailpit/releases/download/v1.25.1/mailpit-linux-arm.tar.gz"
+      sha256 "d4f53b8a087b1700313ce09a0450b4913e4eeb03ea35848eaf406a18b38f852c"
 
       def install
         bin.install "mailpit"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/axllent/mailpit/releases/download/v1.25.0/mailpit-linux-arm64.tar.gz"
-      sha256 "4901a7d5edabf4a33ed5c0a56777ae76d451618aa7f4f9dff08fda6f925a75b4"
+      url "https://github.com/axllent/mailpit/releases/download/v1.25.1/mailpit-linux-arm64.tar.gz"
+      sha256 "95f4289e3dbe57a9a196138492c00b061dacbe972a4b528c4087af011005d451"
 
       def install
         bin.install "mailpit"
